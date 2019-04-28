@@ -134,7 +134,7 @@ def testrun():
 def main():
     c = CartPole()
     c.load_config()
-    c.run_for(num_episodes=200)
+    c.run_for(num_episodes=500)
     c.save_config()
 
 
